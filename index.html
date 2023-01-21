@@ -1,69 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prueba Simple</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Corrección de la ruta de la hoja de estilos -->
+        <link rel="stylesheet" href="./styles.css" />
+        <title>Prueba Simple</title>
+    </head>
 
-<body>
-
-    <!-- Contenido para borrar -->
-    <pre style="font-size:24px;">
-    A continuación te presento un html que se rompió al momento de subir a producción, el objetivo es encontrar la solución a esta situación y organizar de tal manera que el contenido se visualice correctamente en el navegador
-    Tienes como apoyo el archivo css y una imagen para saber cual es el diseño final que se debe mostrar.
-
-    Cuando finalices elimina esta sección de comentarios y publica en github compartiendonos el link del repo.
-</pre>
-<img src="./images/image.png" width="1200px" height="600px" alt="">
-    <!-- Contenido para borrar -->
-
-
-    <!-- main content -->
-    <main>
-
-        <!-- CONTAINER -->
-        <img src="https://raw.githubusercontent.com/MizAndhre/Stats-preview-card-component/main/images/image-header-mobile.jpg"
-            alt="Header image" class="card__img__mobile" />
-        <img src="https://raw.githubusercontent.com/MizAndhre/Stats-preview-card-component/main/images/image-header-desktop.jpg"
-            alt="Header image" class="card__img__desktop" />
-        <div class="card">
-            <!-- IMAGE -->
-
-            <!-- CONTENT-->
-            <div class="">
-                <!-- TITLE -->
-                <h1>Get <span>insights</span> that help your business grow.</h1>
-                <!-- PARAGRAPH -->
-                <p>
-                    Discover the benefits of data analytics and make better decisions
-                    regarding revenue, customer experience, and overall efficiency.
-                </p>
-                <!-- FEATURES -->
-                <div class="">
-                    <div class="">
-                        <h2>10k+</h2>
-                        <p>companies</p>
+    <body>
+        <!-- main content -->
+        <main>
+            <!-- CONTAINER -->
+            <!-- <img src="https://raw.githubusercontent.com/MizAndhre/Stats-preview-card-component/main/images/image-header-mobile.jpg"
+                alt="Header image" class="card__img__mobile" />
+            <img src="https://raw.githubusercontent.com/MizAndhre/Stats-preview-card-component/main/images/image-header-desktop.jpg"
+                alt="Header image" class="card__img__desktop" /> -->
+            <div class="card">
+                <!-- IMAGE -->
+                <!-- Creación de un div para organizar la imagen principal de acuerdo a la hoja de estilos -->
+                <div class="card__img">
+                    <img src="https://raw.githubusercontent.com/MizAndhre/Stats-preview-card-component/main/images/image-header-mobile.jpg"
+                        alt="Header image" class="card__img__mobile" />
+                    <img src="https://raw.githubusercontent.com/MizAndhre/Stats-preview-card-component/main/images/image-header-desktop.jpg"
+                        alt="Header image" class="card__img__desktop" />
+                </div>
+                <!-- CONTENT-->
+                <!-- Se incluye el nombre de la clase de los divs de "content" como de los "features" de acuerdo al orden de la hoja de estilos -->
+                <div class="card__content">
+                    <!-- TITLE -->
+                    <h1>Get <span>insights</span> that help your business grow.</h1>
+                    <!-- PARAGRAPH -->
+                    <p>
+                        Discover the benefits of data analytics and make better decisions
+                        regarding revenue, customer experience, and overall efficiency.
+                    </p>
+                    <!-- FEATURES -->
+                    <div class="card__features">
+                        <div class="card__features__component">
+                            <h2>10k+</h2>
+                            <p>companies</p>
+                        </div>
+                        <div class="card__features__component">
+                            <h2>314</h2>
+                            <p>templates</p>
+                        </div>
+                        <div class="card__features__component">
+                            <h2>12M+</h2>
+                            <p>queries</p>
+                        </div>
                     </div>
-                    <div class="">
-                        <h2>314</h2>
-                        <p>templates</p>
-                    </div>
-                    <div class="">
-                        <h2>12M+</h2>
-                        <p>queries</p>
-                    </div>
-
                 </div>
             </div>
-    </main>
-
-    <!-- main content -->
-
-
-</body>
+        </main>
+        <!-- main content -->
+    </body>
 
 </html>

@@ -1,0 +1,21 @@
+{
+  "name": "prueba-front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Angela2201/prueba-grupo-sancho.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Angela2201/prueba-grupo-sancho/issues"
+  },
+  "homepage": "https://github.com/Angela2201/prueba-grupo-sancho#readme"
+}
