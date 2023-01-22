@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.html",
+    "start": "serve -s ./src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Angela2201/prueba-grupo-sancho/issues"
   },
-  "homepage": "https://github.com/Angela2201/prueba-grupo-sancho#readme"
+  "homepage": "https://github.com/Angela2201/prueba-grupo-sancho#readme",
+  "dependencies": {
+    "serve": "^14.1.2"
+  }
 }
